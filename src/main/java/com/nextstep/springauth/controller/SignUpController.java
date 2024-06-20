@@ -19,10 +19,13 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api/v1/")
 public class SignUpController {
+
 @Autowired
-    Auth auth;
+Auth auth;
+
 @Autowired
 AuthenticationManager authenticationManager;
+
 @Autowired
 JwtService jwtService;
 

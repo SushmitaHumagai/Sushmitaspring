@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6a6e644-10c8-47b1-9343-3b0deb09dc22" name="Default Changelist" comment="" />
+    <list default="true" id="b6a6e644-10c8-47b1-9343-3b0deb09dc22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/controller/AssignmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/controller/LogBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/model/AssignmentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/model/LogBookModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/repo/AssignmentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/repo/LogRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/service/AssignmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/service/AssignmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/service/LogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/controller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nextstep/springauth/controller/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nextstep/springauth/controller/SignUpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nextstep/springauth/controller/SignUpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nextstep/springauth/model/SignUpModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nextstep/springauth/model/SignUpModel.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +47,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -40,7 +63,14 @@
       <recent name="C:\Users\DELL\IdeaProjects\Sprin_Auth\src\main\java\com\nextstep\springauth\configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nextstep.springauth.App" />
+      <module name="Sprin_Auth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nextstep.springauth.App" />
       <module name="Sprin_Auth" />
@@ -55,6 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -89,6 +124,9 @@
       <workItem from="1718870285196" duration="1338000" />
       <workItem from="1718872027544" duration="1842000" />
       <workItem from="1718882671717" duration="2956000" />
+      <workItem from="1718890698438" duration="8069000" />
+      <workItem from="1718903175698" duration="634000" />
+      <workItem from="1718905162484" duration="769000" />
     </task>
     <servers />
   </component>
@@ -100,40 +138,47 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="92" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1718604154537" />
-    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1718605588141">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="186" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1718896622080">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state x="186" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1718896622080" />
     <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1718605588141" />
-    <state x="574" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1718604718517">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="478" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1718899183762">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state x="478" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1718899183762" />
     <state x="574" y="143" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1718604718517" />
-    <state x="498" y="215" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1718605585120">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="415" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1718896620672">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state x="415" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.672@0.0.1280.672" timestamp="1718896620672" />
     <state x="498" y="215" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1718605585120" />
     <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1718862043532">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1718862043532" />
-    <state width="1323" height="46" key="GridCell.Tab.0.bottom" timestamp="1718874031087">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="35" key="GridCell.Tab.0.bottom" timestamp="1718902087963">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state width="1237" height="35" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1718902087963" />
     <state width="1323" height="46" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1718874031087" />
     <state width="1493" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1718869256342" />
-    <state width="1323" height="46" key="GridCell.Tab.0.center" timestamp="1718874031087">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="35" key="GridCell.Tab.0.center" timestamp="1718902087963">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state width="1237" height="35" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1718902087963" />
     <state width="1323" height="46" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1718874031087" />
     <state width="1493" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1718869256342" />
-    <state width="1323" height="46" key="GridCell.Tab.0.left" timestamp="1718874031087">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="35" key="GridCell.Tab.0.left" timestamp="1718902087963">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state width="1237" height="35" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1718902087963" />
     <state width="1323" height="46" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1718874031087" />
     <state width="1493" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1718869256341" />
-    <state width="1323" height="46" key="GridCell.Tab.0.right" timestamp="1718874031087">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1237" height="35" key="GridCell.Tab.0.right" timestamp="1718902087963">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state width="1237" height="35" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1718902087963" />
     <state width="1323" height="46" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1718874031087" />
     <state width="1493" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1718869256342" />
     <state x="299" y="88" key="Maven.ArtifactSearchDialog" timestamp="1718716464347">
@@ -144,9 +189,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1718870405402" />
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1718690293793">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="388" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1718905330441">
+      <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state x="388" y="201" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1718905330440" />
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1718690293793" />
     <state x="390" y="0" width="586" height="728" key="find.popup" timestamp="1718883954047">
       <screen x="0" y="0" width="1366" height="728" />
